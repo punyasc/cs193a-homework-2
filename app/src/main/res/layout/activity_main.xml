@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Long press an item to remove it. Press it to highlight it."
+        android:text="Long press an item to remove it. Tap it to mark it as urgent."
         android:id="@+id/textView2"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true" />
@@ -54,7 +54,6 @@
         android:layout_above="@+id/addButton"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/textView2"
-        android:listSelector="@drawable/listselector"
         />
 
 </RelativeLayout>
